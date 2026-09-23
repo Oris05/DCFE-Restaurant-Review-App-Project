@@ -1,0 +1,244 @@
+body {
+
+margin: 0;
+padding: 0;
+background-image: url(../../RestaurantBackgroundImage.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+/* **********************************All Header Related Content Starts here********************************** */
+
+header {
+
+width: 100%;
+height: 100px;
+background-color: rgb(0, 0, 0);
+
+}
+
+header h1{
+
+color: red;
+float: left;
+margin-left: 50px;
+line-height: 50px;
+
+}
+
+header h2{
+
+float: right;
+margin-right: 50px;
+line-height: 50px;
+background-color: red;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 10px;
+
+}
+
+header a{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+/* **********************************All Header Related Content Ends here********************************** */
+
+
+
+/* **********************************All of the main content starts here ********************************** */
+
+main {
+
+width: 100%;
+min-height: 600px;
+
+
+
+}
+
+.image {
+
+background-image: url(../../../platter.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+aspect-ratio: 12/3;
+box-shadow: 0 0 55px rgba(0, 0, 0, 1);
+
+
+}
+
+.titleMenu {
+
+width: 100%;
+min-height: 80px;
+color: red;
+text-align: center;
+font-size: 25px;
+background-color: black;
+line-height: 80px;
+
+}
+
+.menu {
+
+width: 25%;
+min-height: 550px;
+background-color:   #f4f4f4;
+margin-left: 6.25%;
+display: inline-block;
+margin-top: 2%;
+margin-bottom: 2%;
+border-radius: 8px;
+border-top: solid 3px black;
+border-left: solid 3px black;
+box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+
+
+}
+
+.menu ul {
+
+font-size: 15px;
+margin-left: 10%;
+list-style: none;
+float: left;
+
+
+}
+
+.menu h3 {
+
+font-family: "Yanone Kaffeesatz", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+
+font-size: 40px;
+text-align: center;
+text-decoration: underline;
+
+}
+
+.price{
+
+font-size: 15px;
+float: left;
+list-style: none;
+
+
+}
+
+.reviewsContainer {
+
+width: 100%;
+min-height: 1000px;
+
+
+}
+
+.zerev {
+
+width: 80%;
+min-height: 60px;
+background-color: #f4f4f4;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+font-size: 25px;
+line-height: 60px;
+border-radius: 8px;
+margin-left: 10%;
+display: inline-block;
+margin-top: 2%;
+margin-bottom: 0.3%;
+}
+
+main h3 {
+
+font-size: 50px;
+color: red;
+text-align: center;
+
+}
+
+/*  **********************************All of the main content ends here ********************************** */
+
+footer {
+
+width: 100%;
+height: 100px;
+background-color: rgb(0, 0, 0);
+text-align: center;
+color: red;
+}
+
+.copy {
+
+width:100%;
+line-height: 100px;
+min-height: 100px;
+
+}
+
+/* **********************************All section related content e.g add a review********************************** */
+
+section {
+
+width: 100%;
+min-height: 300px;
+background-color: rgb(0, 0, 0);
+padding-top: 5px;
+
+}
+
+section h3 {
+
+font-size: 40px;
+color: red;
+text-align: center;
+
+}
+
+#question input {
+
+width: 79.17%;
+min-height: 74px;
+float: left;
+text-decoration: none;
+font-size: 20px;
+background-color: rgb(169, 169, 169);
+border: solid 2px black;
+color: black;
+
+}
+
+#post input {
+
+width: 20%;
+min-height: 80px;
+float: left;
+text-decoration: none;
+font-size: 20px;
+background-color: rgb(169, 169, 169);
+
+}
+
+form {
+
+width: 80%;
+min-height: 80px;
+margin: auto;
+
+}
+
+.checked {
+    color: orange;
+  }
+/* **********************************The section ends here********************************** */

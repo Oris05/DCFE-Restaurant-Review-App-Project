@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Caravan Restaurant</title>
+    <meta name="description" content="description"/>
+    <meta name="author" content="author" />
+    <meta name="keywords" content="keywords" />
+    <link rel="stylesheet" href="../../../stylesheet.css" type="text/css" />
+    <style type="text/css">.body { width: auto; }</style>
+  </head>
+
+    <body>
+
+        <header><h1>THE CARAVAN</h1>
+          <h2><a href = "/">Home</a></h2></header>
+
+        <main>
+
+        <h3>THE REVIEW PAGE</h3>
+
+          <div class = "reviewsContainer">
+            
+            <% reviews.forEach(function(item) { %>
+
+              <div class = "zerev">
+                
+                <%= item.id %>.<%= item.theReview %>
+            
+              </div>
+
+            <% }); %>
+
+          </div>
+
+        </main>
+
+        <footer><div class = "copy">&copy Orestas Zeigis Limited 2024</div></footer>
+
+    </body>
+
+</html>
